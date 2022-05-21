@@ -1,0 +1,110 @@
+.header {
+margin: 0;
+padding: 0;
+}
+
+.header__tools {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+  box-sizing: border-box;
+  margin: 28px 0 0 48px;
+  padding: 0;
+}
+
+.header__lang-links {
+  margin: 0;
+  padding: 46px 48px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__lang-link {
+  max-width: 30px;
+  max-height: 28px;
+  margin: 0;
+  padding: 0 0 0 18px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: underline;
+  /*С размерами какая-то хуйня, тексты выходят за границы параграфов, видимо посмотреть как сделать так, чтоб текст был внутри параграфа!! и дописать высоту строки*/
+}
+
+.header__title {
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0 auto 0;
+  padding: 56px 0 0 0;
+  line-height: 100px;
+  width: 720px;
+  font-size: 96px;
+  text-align: center;
+
+}
+
+.header__subtitle {
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 auto 0;
+  padding: 32px 0 0 0;
+  line-height: 36px;
+  width: 640px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*.header__main-illustration {
+  background-image: url(../../images/lead-polka.jpg);
+  background-size: 984px 615px;
+  background-repeat: no-repeat;
+  /*background-position: bottom left;*/
+  /*width: 984px;
+  height: 615px;
+  box-sizing: border-box;
+  /*position: relative;*/
+  /*margin: 64px auto 0;
+  padding: 0 0 0 0;
+}*/
+
+.header__main-illustration {
+  width: 984px;
+  height: 615px;
+  box-sizing: border-box;
+  /*position: relative;*/
+  margin: 64px auto 0;
+  padding: 0 0 0 0;
+  display: block;
+}
+
+.header__caption-container {
+ margin: 0 auto 0;
+ padding: 8px 0 0 0;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ width: 984px;
+}
+
+.header__caption {
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+  font-size: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-sizing: border-box;
+}
+
