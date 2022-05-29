@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 
-.header__tools {
+/*.header__tools {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +37,7 @@ padding: 0;
   color: #ffffff;
   text-decoration: underline;
   /*С размерами какая-то хуйня, тексты выходят за границы параграфов, видимо посмотреть как сделать так, чтоб текст был внутри параграфа!! и дописать высоту строки*/
-}
+/*}
 
 .header__title {
   font-weight: 900;
@@ -75,12 +75,12 @@ padding: 0;
   padding: 0 0 0 0;
 }*/
 
-.header__main-illustration {
+/*.header__main-illustration {
   width: 984px;
   height: 615px;
   box-sizing: border-box;
   /*position: relative;*/
-  margin: 64px auto 0;
+ /* margin: 64px auto 0;
   padding: 0 0 0 0;
   display: block;
 }
@@ -106,5 +106,5 @@ padding: 0;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   box-sizing: border-box;
-}
+}*/
 

@@ -1,0 +1,23 @@
+.header__lang-link {
+  margin: 0;
+  padding: 0 0 0 18px;
+  /* box-sizing: border-box; */
+  color: #ffffff;
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  /*С размерами какая-то хуйня, тексты выходят за границы параграфов, видимо посмотреть как сделать так, чтоб текст был внутри параграфа!! и дописать высоту строки*/
+  /*Нужно еще задать состоянеия при выбранности. Типа если русский подключен к странице, то подчеркнут руский тул*/
+}
+
+.header__lang-link:enabled {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    line-height: 1.11;
+    font-size: 18px;
+  }
+}

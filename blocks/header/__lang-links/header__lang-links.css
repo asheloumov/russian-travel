@@ -1,0 +1,19 @@
+.header__lang-links {
+  margin: 0;
+  padding: 46px 48px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-links {
+    padding: 46px 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-links {
+    padding: 30px 16px 0 0;
+  }
+}
