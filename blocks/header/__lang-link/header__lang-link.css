@@ -11,8 +11,9 @@
   /*Нужно еще задать состоянеия при выбранности. Типа если русский подключен к странице, то подчеркнут руский тул*/
 }
 
-.header__lang-link:enabled {
+.header__lang-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 425px) {

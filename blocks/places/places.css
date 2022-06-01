@@ -37,6 +37,20 @@
   }
 }
 
+/*@media screen and (max-width: 670px) {
+  .place {
+    /*grid-template-columns: fit-content(340px) fit-content(352px);*/
+    /*grid-template-rows: fit-content(92px) fit-content(92px) fit-content(340px) fit-content(340px);
+    grid-template-areas:
+  "place__title"
+  "place__url"
+  "place__image"
+  "place__paragraphs";
+    row-gap: 32px;
+    column-gap: 0;
+  }
+}*/
+
 @media screen and (max-width: 425px) {
   .place {
     /*grid-template-columns: fit-content(340px) fit-content(352px);*/
@@ -82,7 +96,8 @@
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 auto 0; /*должны быть смещены влево*/
+    margin: 0;
+    padding: 0 0 0 16px;
     justify-self: start;
     max-width: calc(100vw - 32px); /* хз чего здесь получилось или неьт*/
   }
@@ -110,6 +125,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 0 0 0 16px;
 }
 
 @media screen and (max-width: 768px) {
@@ -167,6 +183,14 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+    padding: 0 0 0 16px;
   }
 }
 
