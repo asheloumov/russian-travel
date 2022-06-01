@@ -1,0 +1,11 @@
+.intro__fact {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 12px;
+  max-width: 640px;
+  box-sizing: border-box;
+}
+
