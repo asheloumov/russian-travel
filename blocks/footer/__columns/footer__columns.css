@@ -1,0 +1,15 @@
+.footer__columns {
+  padding: 0;
+  margin: 0 auto 0;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__columns {
+    flex-direction: column;
+    max-width: calc(100vw - 32px);
+  }
+}

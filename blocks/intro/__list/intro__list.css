@@ -7,6 +7,14 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    max-width: calc(100vw - 96px);
+    min-width: 288px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro__list {
     padding: 33px 0 88px 0;

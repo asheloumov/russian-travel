@@ -1,0 +1,13 @@
+.place__url {
+  grid-area: place__url;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__url {
+    max-width: calc(100vw - 32px);
+  }
+}

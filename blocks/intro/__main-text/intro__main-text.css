@@ -10,6 +10,14 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__main-text {
+    max-width: calc(100vw - 96px);
+    min-width: 288px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro__main-text {
     max-width: calc(100vw - 48px);

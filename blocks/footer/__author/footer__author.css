@@ -1,0 +1,19 @@
+.footer__author {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 0 24px 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__author {
+    line-height: 1;
+    padding-top: 48px;
+  }
+}
+
+.footer__author:hover {
+  cursor: pointer;
+}
