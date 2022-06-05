@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="#">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
   <!--начало блока page, начало блока header-->
   <header class="header">
-    <div class="header__tools">
+    <div class="header__tools-conainer">
       <img src="./images/header-logo.svg" alt="Минималистичное изображение контуров России на карте мира с надписью Россия, выполненные в белом цвете" class="header__logo">
-      <div class="header__lang-links">
-        <p class="header__lang-link">RU</p>
-        <p class="header__lang-link">EN</p>
+      <div class="header__lang-links-container">
+        <p class="header__lang-link">Ru</p>
+        <p class="header__lang-link">En</p>
       </div>
     </div>
     <h1 class="header__title">Путешествия по России</h1>
@@ -53,11 +53,11 @@
         <img src="./images/photo-grid-kamchatka-1.jpg" alt="Вид на туманную горную местность" class="gallery__image">
         <img src="./images/photo-grid-kamchatka-2.jpg" alt="Вид на камчатские горы" class="gallery__image">
         <img src="./images/photo-grid-baikal-2.jpg" alt="Вид на утёс на побережье озера Байкал" class="gallery__image">
-        <img src="./images/photo-grid-elbrus.jpg" alt="Вид на туманные горы Эльбруса" class="gallery__image">
+        <img src="./images/photo-grid-ergaki.jpg" alt="Вид на туманные горы Эльбруса" class="gallery__image">
       </div>
     </div>
     <!--конец блока intro начало блока places-->
-    <div class="places">
+    <section class="places">
       <section class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img src="./images/place-kosa.jpg" alt="Вид на Куршскую косу - по сути, корни деревьев и камни выступают из воды на мелководье" class="place__image">
@@ -119,25 +119,26 @@
           <p class="place__paragraph">В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
       </section>
-    </div>
-    <!--конец блока places начало блока conclusion-->
-    <div class="conclusion">
-      <div class="conclusion__hover-layer"></div>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="conclusion__title">До Байкала «на собаках»</a>
-      <p class="conclusion__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-    </div>
-    <!--конец блока places-->
+    </section>
+    <!--конец блока places начало блока cover-->
+    <section class="cover">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+        <h3 class="cover__title">До Байкала «на собаках»</h3>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
+    </section>
+    <!--конец блока cover-->
   </main>
   <!--конец блока content начало блока footer-->
   <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__column footer__column_links">
+      <nav class="footer__column footer__column_links">
         <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
         <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
         <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
         <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
         <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </div>
+      </nav>
       <div class="footer__column footer__column_copyright">
         <p class="footer__author">&copy;2022 Антон Шелоумов</p>
       </div>

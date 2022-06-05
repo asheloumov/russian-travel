@@ -4,8 +4,14 @@
   background-color: #2a2c2f;
   max-width: 1280px;
   background-size: contain;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-width: 1024px) {
+  .page {
+    margin: 0;
+  }
+}

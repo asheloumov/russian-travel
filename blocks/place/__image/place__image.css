@@ -16,18 +16,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .place__image {
-    max-height: 340px;
-    align-self: start;
-    max-width: 340px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .place__image {
     max-height: 340px;
     align-self: start;
     max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 761px) {
+  .place__image {
+    width: auto;
   }
 }

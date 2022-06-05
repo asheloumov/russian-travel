@@ -6,7 +6,7 @@
   padding: 0 0 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .place__url {
     max-width: calc(100vw - 32px);
   }

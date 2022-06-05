@@ -7,14 +7,12 @@
   font-size: 16px;
   max-width: 690px;
   box-sizing: border-box;
-
+  text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__main-text {
-    max-width: calc(100vw - 96px);
     min-width: 288px;
-    margin: 0 auto;
   }
 }
 
@@ -22,13 +20,11 @@
   .intro__main-text {
     max-width: calc(100vw - 48px);
     min-width: 288px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro__main-text {
     max-width: calc(100vw - 32px);
-    margin: 0 auto;
   }
 }

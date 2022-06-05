@@ -2,7 +2,7 @@
   max-width: 176px;
   max-height: 52px;
   box-sizing: border-box;
-  margin: 28px 0 0 48px;
+  margin: 28px 0 0 0;
   padding: 0;
 }
 
@@ -10,6 +10,6 @@
   .header__logo {
     max-width: 142px;
     max-height: 42px;
-    margin: 16px 0 0 16px;
+    margin: 16px 0 0 0;
   }
 }
