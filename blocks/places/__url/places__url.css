@@ -1,0 +1,19 @@
+.places__url {
+  grid-area: place__url;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 0 0;
+}
+
+@media screen and (max-width: 920px) {
+  .places__url {
+    max-width: calc(100vw - 32px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__url {
+    padding: 32px 0 0 16px;
+  }
+}
